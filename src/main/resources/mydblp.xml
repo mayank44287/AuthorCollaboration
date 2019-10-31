@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE dblp SYSTEM "dblp.dtd">
+<dblp>
+    <article mdate="2018-01-07" key="tr/meltdown/s18" publtype="informal">
+        <author>Paul Kocher</author>
+        <author>Daniel Genkin</author>
+        <author>Daniel Gruss</author>
+        <author>Werner Haas</author>
+        <author>Mike Hamburg</author>
+        <author>Moritz Lipp</author>
+        <author>Stefan Mangard</author>
+        <author>Thomas Prescher 0002</author>
+        <author>Michael Schwarz 0001</author>
+        <author>Yuval Yarom</author>
+        <title>Spectre Attacks: Exploiting Speculative Execution.</title>
+        <journal>meltdownattack.com</journal>
+        <year>2018</year>
+        <ee>https://spectreattack.com/spectre.pdf</ee>
+    </article>
+    <article mdate="2018-01-07" key="tr/meltdown/m18" publtype="informal">
+        <author>Moritz Lipp</author>
+        <author>Michael Schwarz 0001</author>
+        <author>Daniel Gruss</author>
+        <author>Thomas Prescher 0002</author>
+        <author>Werner Haas</author>
+        <author>Stefan Mangard</author>
+        <author>Paul Kocher</author>
+        <author>Daniel Genkin</author>
+        <author>Yuval Yarom</author>
+        <author>Mike Hamburg</author>
+        <title>Meltdown</title>
+        <journal>meltdownattack.com</journal>
+        <ee>https://meltdownattack.com/meltdown.pdf</ee>
+        <year>2018</year>
+    </article>
+    <book mdate="2019-05-27" key="tr/acm/CS2013">
+        <title>Computer Science Curricula 2013</title>
+        <publisher>ACM Press and IEEE Computer Society Press</publisher>
+        <year>2013</year>
+        <ee>https://doi.org/10.1145/2534860</ee>
+        <isbn>978-1-4503-2309-3</isbn>
+    </book>
+    <article mdate="2017-06-08" key="tr/gte/TR-0263-08-94-165" publtype="informal">
+        <author>Frank Manola</author>
+        <title>An Evaluation of Object-Oriented DBMS Developments: 1994 Edition.</title>
+        <journal>GTE Laboratories Incorporated</journal>
+        <volume>TR-0263-08-94-165</volume>
+        <month>August</month>
+        <year>1994</year>
+        <url>db/labs/gte/index.html#TR-0263-08-94-165</url>
+    </article><article mdate="2019-05-27" key="tr/gte/TR-0222-10-92-165" publtype="informal">
+    <author>Michael L. Brodie</author>
+    <author>Michael Stonebraker</author>
+    <title>DARWIN: On the Incremental Migration of Legacy Information Systems</title>
+    <journal>GTE Laboratories Incorporated</journal>
+    <volume>TR-0222-10-92-165</volume>
+    <month>March</month>
+    <year>1993</year>
+    <url>db/labs/gte/index.html#TR-0222-10-92-165</url>
+    <note>This report is also available as a Technical Memorandum of Electronics Research Laboratory, College of Engineering, University of California, Berkeley.</note>
+</article>
+    <article mdate="2017-06-08" key="tr/gte/TR-0174-12-91-165" publtype="informal">
+        <author>Mark F. Hornick</author>
+        <author>Joe D. Morrison</author>
+        <author>Farshad Nayeri</author>
+        <title>Integrating Heterogeneous, Autonomous, Distributed Applications Using the DOM Prototype.</title>
+        <journal>GTE Laboratories Incorporated</journal>
+        <volume>TR-0174-12-91-165</volume>
+        <month>December</month>
+        <year>1991</year>
+        <url>db/labs/gte/index.html#TR-0174-12-91-165</url>
+    </article><article mdate="2017-06-08" key="tr/gte/TM-0149-06-89-165" publtype="informal">
+    <author>Frank Manola</author>
+    <title>Object Model Capabilities For Distributed Object Management.</title>
+    <journal>GTE Laboratories Incorporated</journal>
+    <volume>TM-0149-06-89-165</volume>
+    <month>June</month>
+    <year>1989</year>
+    <url>db/labs/gte/index.html#TM-0149-06-89-165</url>
+</article><article mdate="2017-06-08" key="tr/gte/TR-0310-11-95-165" publtype="informal">
+    <author>Frank Manola</author>
+    <title>Integrating Object-Oriented Applications and Middleware with Relational Databases.</title>
+    <journal>GTE Laboratories Incorporated</journal>
+    <volume>TR-0310-11-95-165</volume>
+    <month>November</month>
+    <year>1995</year>
+    <url>db/labs/gte/index.html#TR-0310-11-95-165</url>
+</article><article mdate="2017-06-08" key="tr/gte/TR-0146-06-91-165" publtype="informal">
+    <author>Alejandro P. Buchmann</author>
+    <author>M. Tamer &Ouml;zsu</author>
+    <author>Dimitrios Georgakopoulos</author>
+    <title>Towards a Transaction Management System for DOM.</title>
+    <journal>GTE Laboratories Incorporated</journal>
+    <volume>TR-0146-06-91-165</volume>
+    <month>June</month>
+    <year>1991</year>
+    <url>db/labs/gte/index.html#TR-0146-06-91-165</url>
+</article><article mdate="2017-06-08" key="tr/gte/TR-0231-08-93-165" publtype="informal">
+    <author>Frank Manola</author>
+    <author>Sandra Heiler</author>
+    <title>A 'RISC' Object Model for Object System Interoperation: Concepts and Applications.</title>
+    <journal>GTE Laboratories Incorporated</journal>
+    <volume>TR-0231-08-93-165</volume>
+    <month>August</month>
+    <year>1993</year>
+    <url>db/labs/gte/index.html#TR-0231-08-93-165</url>
+</article><article mdate="2017-06-08" key="tr/gte/TR-0244-12-93-165" publtype="informal">
+    <author>Frank Manola</author>
+    <title>MetaObject Protocol Concepts for a RISC Object Model.</title>
+    <journal>GTE Laboratories Incorporated</journal>
+    <volume>TR-0244-12-93-165</volume>
+    <month>December</month>
+    <year>1993</year>
+    <url>db/labs/gte/index.html#TR-0244-12-93-165</url>
+</article><article mdate="2017-06-08" key="tr/gte/TR-0169-12-91-165" publtype="informal">
+    <author>Frank Manola</author>
+    <title>Object Data Language Facilities for Multimedia Data Types.</title>
+    <journal>GTE Laboratories Incorporated</journal>
+    <volume>TR-0169-12-91-165</volume>
+    <month>December</month>
+    <year>1991</year>
+    <url>db/labs/gte/index.html#TR-0169-12-91-165</url>
+</article><article mdate="2017-06-08" key="tr/gte/TM-0332-11-90-165" publtype="informal">
+    <author>Frank Manola</author>
+    <author>Mark F. Hornick</author>
+    <author>Alejandro P. Buchmann</author>
+    <title>Object Data Model Facilities for Multimedia Data Types.</title>
+    <journal>GTE Laboratories Incorporated</journal>
+    <volume>TM-0332-11-90-165</volume>
+    <month>December</month>
+    <year>1990</year>
+    <url>db/labs/gte/index.html#TM-0332-11-90-165</url>
+</article><article mdate="2017-06-08" key="tr/gte/TM-0014-06-88-165" publtype="informal">
+    <author>Frank Manola</author>
+    <title>Distributed Object Management Technology.</title>
+    <journal>GTE Laboratories Incorporated</journal>
+    <volume>TM-0014-06-88-165</volume>
+    <month>June</month>
+    <year>1988</year>
+    <url>db/labs/gte/index.html#TM-0014-06-88-165</url>
+</article><article mdate="2017-06-08" key="tr/gte/TR-0236-09-93-165" publtype="informal">
+    <author>Farshad Nayeri</author>
+    <author>Benjamin Hurwitz</author>
+    <title>Experiments with Dispatching in a Distributed Object System.</title>
+    <journal>GTE Laboratories Incorporated</journal>
+    <volume>TR-0236-09-93-165</volume>
+    <month>July</month>
+    <year>1993</year>
+    <url>db/labs/gte/index.html#TR-0236-09-93-165</url>
+</article><article mdate="2017-06-08" key="tr/ucb/erl-m79-28" publtype="informal">
+    <author>Michael Stonebraker</author>
+    <title>Muffin: A Distributed Database Machine</title>
+    <journal>University of California at Berkeley</journal>
+    <volume>UCB/ERL M79/28</volume>
+    <month>May</month>
+    <year>1979</year>
+</article><article mdate="2018-06-28" key="tr/sql/X3H2-90-412" publtype="informal">
+    <author>David Beech</author>
+    <author>Cetin Ozbutun</author>
+    <title>Object Oriented DBMS as a Generalization of Relational DBMS</title>
+    <journal>ANSI X3H2</journal>
+    <volume>X3H2-90-412</volume>
+    <year>1990</year>
+    <url>db/ansi/x3h2.html#X3H2-90-412</url>
+    <cdrom>SQL/X3H2-90-412.pdf</cdrom>
+</article><article mdate="2018-06-28" key="tr/sql/X3H2-91-133rev1" publtype="informal">
+    <author>Krishna G. Kulkarni</author>
+    <author>Jim Melton</author>
+    <author>Jonathan Bauer</author>
+    <author>Mike Kelley</author>
+    <title>Inheritance for ADTs (revised)</title>
+    <journal>ANSI X2H2</journal>
+    <volume>DBL:KAW-006 X3H2-91-133rev1</volume>
+    <month>July</month>
+    <year>1991</year>
+    <url>db/ansi/x3h2.html#X3H2-91-133rev1</url>
+    <cdrom>SQL/x3h2-91-133rev1.pdf</cdrom>
+</article><article mdate="2018-06-28" key="tr/sql/X3H2-90-292" publtype="informal">
+    <author>Phil Shaw</author>
+    <title>Modification of User Defined Types</title>
+    <journal>ANSI X3H2</journal>
+    <volume>X3H2-90-292</volume>
+    <year>1990</year>
+    <url>db/ansi/x3h2.html#X3H2-90-292</url>
+    <cdrom>SQL/X3H2-90-292.pdf</cdrom>
+</article><article mdate="2018-06-28" key="tr/sql/X3H2-91-083rev1" publtype="informal">
+    <author>Jim Melton</author>
+    <author>Jonathan Bauer</author>
+    <author>Krishna G. Kulkarni</author>
+    <title>Object ADTs (with improvements for Value ADTs)</title>
+    <journal>ANSI X3H2</journal>
+    <volume>DBL:ARL-029 X3H2-91-083rev1</volume>
+    <month>April</month>
+    <year>1991</year>
+    <url>db/ansi/x3h2.html#X3H2-91-083rev1</url>
+    <cdrom>SQL/X3H2-91-083rev1.pdf</cdrom>
+</article><article mdate="2018-06-28" key="tr/sql/X3H2-92-062" publtype="informal">
+    <author>David Beech</author>
+    <title>Unification of Value and Object ADTs</title>
+    <journal>ANSI X3H2</journal>
+    <volume>X3H2-92-062</volume>
+    <year>1992</year>
+    <url>db/ansi/x3h2.html#X3H2-92-062</url>
+</article><article mdate="2017-06-08" key="tr/ibm/IWBS191" publtype="informal">
+    <author>Rolf Sander</author>
+    <title>Die Repr&auml;sentation r&auml;umlichen Wissens und die Behandlung von Einbettungsproblemen mit Quadtreedepiktionen</title>
+    <journal>IWBS Report</journal>
+    <volume>191</volume>
+    <year>1991</year>
+    <publisher>IBM Germany Science Center, Institute for Knowledge Based Systems</publisher>
+</article><article mdate="2017-06-08" key="tr/ibm/LILOG59" publtype="informal">
+    <author>Thomas Ludwig 0001</author>
+    <title>Algebraical Optimization of FTA-Expressions</title>
+    <journal>LILOG-Report</journal>
+    <volume>59</volume>
+    <year>1988</year>
+    <publisher>IBM Deutschland GmbH</publisher>
+</article><article mdate="2017-06-08" key="tr/ibm/LILOG15" publtype="informal">
+    <author>Werner Emde</author>
+    <author>Claus-Rainer Rollinger</author>
+    <title>Wissensrepr&auml;sentation und Maschinelles Lernen</title>
+    <journal>LILOG-Report</journal>
+    <volume>15</volume>
+    <year>1987</year>
+    <publisher>IBM Deutschland GmbH</publisher>
+</article><article mdate="2017-06-08" key="tr/ibm/LILOG40" publtype="informal">
+    <author>Christoph Beierle</author>
+    <author>Udo Pletat</author>
+    <author>Hans Uszkoreit</author>
+    <title>An Algebraic Characterization of STUF</title>
+    <journal>LILOG-Report</journal>
+    <volume>40</volume>
+    <year>1988</year>
+    <publisher>IBM Deutschland GmbH</publisher>
+</article><article mdate="2017-06-08" key="tr/ibm/IWBS225" publtype="informal">
+    <author>Ulrike Rackow</author>
+    <author>Ido Dagan</author>
+    <author>Ulrike Schwall</author>
+    <title>A Combined Symbolic-Empirical Apprach for the Automatic Translation of Compounds</title>
+    <journal>IWBS Report</journal>
+    <volume>225</volume>
+    <year>1992</year>
+    <publisher>IBM Germany Science Center, Institute for Knowledge Based Systems</publisher>
+</article><article mdate="2017-06-08" key="tr/ibm/LILOGM2" publtype="informal">
+    <author>Brigitte Bartsch-Sp&ouml;rl</author>
+    <title>Zur Systemarchitektur von LILOG</title>
+    <journal>LILOG-Memo</journal>
+    <volume>2</volume>
+    <year>1987</year>
+    <publisher>IBM Deutschland GmbH</publisher>
+</article><article mdate="2017-06-08" key="tr/ibm/LILOG61" publtype="informal">
+    <author>Erich Gehlen</author>
+    <author>Burkhard Kehrbusch</author>
+    <title>Mengenorientierte Auswertung von Anfragen in der Logikprogrammiersprache PROLOG</title>
+    <journal>LILOG-Report</journal>
+    <volume>61</volume>
+    <year>1988</year>
+    <publisher>IBM Deutschland GmbH</publisher>
+</article><article mdate="2017-06-08" key="tr/ibm/LILOG53" publtype="informal">
+    <author>Markus H&ouml;hfeld</author>
+    <author>Gert Smolka</author>
+    <title>Definite Resolution over Constraint Languages</title>
+    <journal>LILOG-Report</journal>
+    <volume>53</volume>
+    <year>1988</year>
+    <publisher>IBM Deutschland GmbH</publisher>
+</article><article mdate="2017-06-08" key="tr/ibm/LILOGM9" publtype="informal">
+    <author>Birgit Wesche</author>
+    <title>Dokumentation der Syntax der LILOG-Grammatik</title>
+    <journal>LILOG-Memo</journal>
+    <volume>9</volume>
+    <year>1988</year>
+    <publisher>IBM Deutschland GmbH</publisher>
+</article>
+
+</dblp>

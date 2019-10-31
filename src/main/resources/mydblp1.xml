@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE dblp SYSTEM "dblp.dtd">
+<dblp>
+    <article mdate="2018-01-07" key="tr/meltdown/s18" publtype="informal">
+        <author>Paul Kocher</author>
+        <author>Daniel Genkin</author>
+        <author>Daniel Gruss</author>
+        <author>Werner Haas</author>
+        <author>Mike Hamburg</author>
+        <author>Moritz Lipp</author>
+        <author>Stefan Mangard</author>
+        <author>Thomas Prescher 0002</author>
+        <author>Michael Schwarz 0001</author>
+        <author>Yuval Yarom</author>
+        <title>Spectre Attacks: Exploiting Speculative Execution.</title>
+        <journal>meltdownattack.com</journal>
+        <year>2018</year>
+        <ee>https://spectreattack.com/spectre.pdf</ee>
+    </article>
+</dblp>
