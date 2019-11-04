@@ -15,15 +15,10 @@ import org.apache.hadoop.mapreduce.lib.input.{FileSplit, TextInputFormat}
 import org.apache.hadoop.mapreduce.{InputSplit, RecordReader, TaskAttemptContext}
 
 /**
- * Splits XML files by the specified start and end tags to send as input to Mappers.
- *
- * Produces key-value pairs of type [LongWritable, Text]. Multiple start and end tags can be specified. XML is split
- * according to whichever tag is matched first while scanning the file. To specify the start and end tags, set
- * {@link MultiTagXmlInput#START_TAG_KEY} and {@link MultiTagXmlInput#END_TAG_KEY} keys while configuring your
+ * Produces key-value pairs of type [LongWritable, Text]. Multiple start and end tags can be specified.
  * map-reduce job. Multiple tags should be comma-separated without spaces.
- *
  * This implementation is based on Apache Mahout's XMLInputFormat.
- */
+ **/
 class XmlInputFormat extends TextInputFormat with LazyLogging {
 
   override def createRecordReader(split: InputSplit, context: TaskAttemptContext): RecordReader[LongWritable, Text] = {
@@ -39,13 +34,6 @@ class XmlInputFormat extends TextInputFormat with LazyLogging {
 }
 
 /**
- * Splits XML files by the specified start and end tags to send as input to Mappers.
- *
- * Produces key-value pairs of type [LongWritable, Text]. Multiple start and end tags can be specified. XML is split
- * according to whichever tag is matched first while scanning the file. To specify the start and end tags, set
- * {@link MultiTagXmlInput#START_TAG_KEY} and {@link MultiTagXmlInput#END_TAG_KEY} keys while configuring your
- * map-reduce job. Multiple tags should be comma-separated without spaces.
- *
  * This implementation is based on Apache Mahout's XMLInputFormat.
  */
 object XmlInputFormat {

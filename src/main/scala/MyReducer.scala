@@ -1,4 +1,5 @@
-package mayankraj.hw2.myreducer
+//package mayankraj.hw2.myreducer
+package reducers
 
 import java.lang
 
@@ -26,7 +27,5 @@ class MyReducer extends Reducer[Text, IntWritable, Text, IntWritable] with LazyL
     //multipleOutputs.write(key,sum,key.toString)
   }
 
-  override def cleanup(context: Reducer[Text, IntWritable, Text, IntWritable]#Context): Unit = {
 
-  }
 }

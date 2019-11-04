@@ -1,17 +1,14 @@
-package mayankraj.hw2.mymapper
+//package mayankraj.hw2.mymapper
+package mappers
 
 
-import mayankraj.hw2.mapreduce
-import javax.xml.parsers.DocumentBuilderFactory
-import java.io.ByteArrayInputStream
-import java.io.InputStream
 import com.typesafe.config.ConfigFactory
 import com.typesafe.scalalogging.LazyLogging
 import javax.xml.parsers.SAXParserFactory
 import org.apache.hadoop.io.{IntWritable, LongWritable, Text}
 import org.apache.hadoop.mapreduce.Mapper
 import scala.xml.{Elem, XML}
-import org.w3c.dom.NodeList
+
 
 
 
@@ -25,7 +22,8 @@ class MyMapper extends Mapper[LongWritable,Text,Text,IntWritable] with LazyLoggi
 
   override def map(key: LongWritable, value: Text, context: Mapper[LongWritable, Text, Text, IntWritable]#Context): Unit = {
     //
-    logger.trace(s"mapper invoked")
+    logger.trace(s"Mapper invoked: map(key: $key, value: ${value.toString}")
+
     val xmlString = s"""<?xml version="1.0" encoding="ISO-8859-1"?>
               <!DOCTYPE dblp SYSTEM "$dtdFilePath">
               <dblp>""" + value.toString + "</dblp>"
@@ -43,9 +41,10 @@ class MyMapper extends Mapper[LongWritable,Text,Text,IntWritable] with LazyLoggi
       generateAuthorBins(authors).foreach{_ =>
          binSize +=1
       }
-      authorkey.set(new Text((binSize-1).toString))
-      logger.info(s"Mapper emit: <$authorkey, ${one.get()}>")
-      context.write(authorkey, one)
+
+        authorkey.set(new Text(binSize.toString))
+        logger.info(s"Mapper emit: <$authorkey, ${one.get()}>")
+        context.write(authorkey, one)
 
     }
 

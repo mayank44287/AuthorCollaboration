@@ -1,5 +1,5 @@
-package mayankraj.hw2.AuthorshipReducer
-
+//package mayankraj.hw2.AuthorshipReducer
+package reducers
 import java.lang
 
 import com.typesafe.scalalogging.LazyLogging
@@ -14,11 +14,11 @@ class AuthorShipReducer extends Reducer[Text, FloatWritable, Text, FloatWritable
     logger.trace(s"Reducer invoked: reduce(key: ${key.toString}, values: ${values.asScala.map(_.get())}")
     //val multipleOutputs = new MultipleOutputs(context)
 
-    // Sum up all the values for the same faculty pair
     val sum = values.asScala.fold(new FloatWritable(0))((a, b) => new FloatWritable(a.get() + b.get()))
     logger.info(s"Reducer emit: <$key, ${sum.get()}>")
     context.write(key, sum)
     //multipleOutputs.write(key,sum,key.toString)
   }
+
 }
 
